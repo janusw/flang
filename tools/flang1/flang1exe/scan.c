@@ -107,8 +107,8 @@ extern LOGICAL fpp_;
 */
 
 /* for KANJI, the 2 following limits are effectively halved */
-#define MAX_COLS 264
-#define CARDB_SIZE 270
+#define MAX_COLS (264*2)
+#define CARDB_SIZE (264*2+6)
 
 #define INIT_LPS 21
 #define MAX_IDEPTH 20
