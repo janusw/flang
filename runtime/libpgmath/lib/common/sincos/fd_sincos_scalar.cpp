@@ -38,7 +38,7 @@
 #define S(...) __VA_ARGS__
 #define C(...) __VA_ARGS__
 #define FNAME   sincos
-#include <complex.h>
+#include <ccomplex>
 #undef  SINCOS_COMMA
 #define SINCOS_COMMA    ,
 #else
